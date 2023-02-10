@@ -1,10 +1,9 @@
-import React from "react";
 import { Col, Image } from "react-bootstrap";
 
-const CardNet = () => (
+const CardNet = (props) => (
   <>
-    <Col className="mb-2 px-1">
-      <Image src="logo192.png" alt="movie picture" fluid />
+    <Col className="cardFilm mb-2 px-1">
+      <Image className="imgNetflix" src={props.src} alt="movie picture" fluid />
     </Col>
   </>
 );
