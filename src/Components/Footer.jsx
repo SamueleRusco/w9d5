@@ -6,10 +6,10 @@ const Footer = () => {
       <Container>
         <Row>
           <Col>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4">
-              <div class="col">
-                <div class="row">
-                  <div class="col col-12 footer-links">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4">
+              <div className="col">
+                <div className="row">
+                  <div className="col col-12 footer-links">
                     <p>
                       <a href="#" alt="footer link">
                         Audio and Subtitles
@@ -33,9 +33,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="row">
-                  <div class="col col-12 footer-links">
+              <div className="col">
+                <div className="row">
+                  <div className="col col-12 footer-links">
                     <p>
                       <a href="#" alt="footer link">
                         Audio Description
@@ -54,9 +54,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="row">
-                  <div class="col col-12 footer-links">
+              <div className="col">
+                <div className="row">
+                  <div className="col col-12 footer-links">
                     <p>
                       <a href="#" alt="footer link">
                         Help Center
@@ -75,9 +75,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="row">
-                  <div class="col col-12 footer-links">
+              <div className="col">
+                <div className="row">
+                  <div className="col col-12 footer-links">
                     <p>
                       <a href="#" alt="footer link">
                         Gift Cards
@@ -97,18 +97,18 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col col-12 text-left mb-2">
+            <div className="row">
+              <div className="col col-12 text-left mb-2">
                 <button
                   type="button"
-                  class="btn btn-sm footer-button rounded-0 mt-3"
+                  className="btn btn-sm footer-button rounded-0 mt-3"
                 >
                   Service Code
                 </button>
               </div>
             </div>
-            <div class="row">
-              <div class="col col-12 text-left mb-2 mt-2 copyright">
+            <div className="row">
+              <div className="col col-12 text-left mb-2 mt-2 copyright">
                 © 1997-2022 Netflix, Inc.
               </div>
             </div>

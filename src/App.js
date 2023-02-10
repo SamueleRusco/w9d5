@@ -11,11 +11,11 @@ function App() {
       <NavBar />
       <NavBarTVShows />
       <h4>Trending Now</h4>
-      <CardList />
+      <CardList query={"Harry Potter"} />
       <h4>Watch it Again</h4>
-      <CardList />
+      <CardList query={"james bond"} />
       <h4>New Release</h4>
-      <CardList />
+      <CardList query={"the lord of the rings"} />
       <Footer />
     </div>
   );
