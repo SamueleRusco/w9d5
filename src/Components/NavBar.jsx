@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Navbar, Nav, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -14,7 +15,9 @@ const NavBar = () => {
             <Nav.Link href="#">
               Home <span className="sr-only">(current)</span>
             </Nav.Link>
-            <Nav.Link href="#">TV Shows</Nav.Link>
+            <Link to="/TVShows" className="nav-link">
+              TV Show
+            </Link>
             <Nav.Link href="#">Movies</Nav.Link>
             <Nav.Link href="#">Recently Added</Nav.Link>
             <Nav.Link href="#">My List</Nav.Link>

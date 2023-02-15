@@ -77,11 +77,12 @@ class CardList extends Component {
   render() {
     return (
       <>
+        <h4>{this.props.query}</h4>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center">
           {this.state.searchResult &&
             this.state.searchResult.map((film, i) => {
               if (i < 7) {
-                return <CardNet key={film.imdbID} src={film.Poster} />;
+                return <CardNet key={film.imdbID} film={film} />;
               } else {
                 return null;
               }
