@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 const MovieDetails = () => {
   const location = useParams();
 
-  const [film, setfilm] = useState(null);
+  const [film, setfilm] = useState([]);
 
   const fetchCompito = () => {
     fetch("http://www.omdbapi.com/?apikey=94ef9189&i=" + location.movieID)
@@ -17,7 +17,6 @@ const MovieDetails = () => {
   useEffect(() => {
     console.log("location", location);
     fetchCompito();
-    console.log(film);
   }, [location.movieID]);
 
   return (
